@@ -2,9 +2,6 @@
 
 
 
-## Project Page(coming)
 
-[Paper]: https://arxiv.org/abs/2211.11646
-
-##  | Data(coming)
+__[Project page]()&nbsp;| [Paper(arXiv)](https://arxiv.org/abs/2211.11646)&nbsp;| [Video](https://www.youtube.com/watch?v=M8_4Ih1CJjE)&nbsp;| [BibTeX]() &nbsp;| [Data]() __
 
