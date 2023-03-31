@@ -3,7 +3,7 @@
 
 
 
-[Project page]() | [Paper (arXiv)](https://arxiv.org/abs/2211.11646) | [Video](https://www.youtube.com/watch?v=M8_4Ih1CJjE) | [BibTeX]() | [Data](data/README.md)
+[Paper (arXiv)](https://arxiv.org/abs/2211.11646) | [Video](https://www.youtube.com/watch?v=M8_4Ih1CJjE) | [BibTeX]() | [Data](data/README.md)
 
 
 
