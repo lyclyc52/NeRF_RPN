@@ -1,0 +1,17 @@
+name: nerfrpn
+channels:
+    - conda-forge
+dependencies:
+    - python=3.9
+    - pip
+    - pytorch=1.12.1
+    - torchvision=0.13.1
+    - cudatoolkit=11.3
+    - numpy
+    - pip:
+      - imageio
+      - configargparse
+      - wandb
+      - matplotlib
+      - tqdm
+      - pandas

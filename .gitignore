@@ -1,0 +1,25 @@
+**/.ipynb_checkpoints
+**/__pycache__
+# *.png
+*.mp4
+*.npy
+*.npz
+*.dae
+logs/*
+.vscode/*
+temp_*
+output
+wandb
+*_data
+*.json
+*.zip
+*.pt
+*.ply
+**/wandb
+*_results
+**/build
+eval*.sh
+**/dist
+**/sort_vertices.egg-info
+**/rotate_roi_3d.egg-info
+*.so

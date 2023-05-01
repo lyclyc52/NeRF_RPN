@@ -66,10 +66,21 @@ The extracted NeRF rgb and density are in `features`, which can be loaded with n
 
 So far we only provide OBB data for ScanNet, although you can easily calculate AABB from the original ScanNet dataset. We may also include AABB for ScanNet later.
 
-## Dataset Tools
-A set of visualization, pre-processing, and utility tools will be released with the code. We will also add docs and tutorials on how to generate data for more scenes in Hypersim, 3D-FRONT, and ScanNet. 
+## Dataset Creation and Tools
+Scripts for visualizing the NeRF features and object bounding boxes can be found [here](../nerf_rpn/scripts).
 
-Currently you may check our forked and modified [instant-ngp](https://github.com/zymk9/instant-ngp) and [BlenderProc](https://github.com/hjk0918/BlenderProc) repo for the code if needed. More detailed docs are coming soon.
+We also provide code and tutorials if you plan to create more NeRF detection dataset from Hypersim, 3D-FRONT, ScanNet, or other indoor multi-view detection datasets. 
+
+Please note that the features extracted by default is in shape of `(W * L * H, 4)`, which should be reshaped and transposed to `(W, L, H, 4)` before used as NeRF-RPN input. The default coordinate system in instant-ngp is y-up and so as the extracted feature grid. For Dense Depth Priors NeRF, the coordinate system is z-up instead. Our NeRF-RPN dataset assumes both the feature grid and boxes are z-up, which means the yaw angles of the boxes are around the z axis.
+
+### Hypersim NeRF dataset creation
+Refer to our forked [instant-ngp repo](https://github.com/zymk9/instant-ngp/tree/master/scripts) for NeRF training and feature extraction. Script for generating object bounding boxes is [here](../data/hypersim).
+
+### 3D-FRONT NeRF dataset creation
+For 3D-FRONT, first refer to the forked [BlenderProc repo](https://github.com/hjk0918/BlenderProc/tree/main/scripts) for scene configuration, rendering, and object data generation. Then follow the guidance [here](https://github.com/zymk9/instant-ngp/tree/master/scripts) for NeRF training and feature extraction.
+
+### ScanNet NeRF dataset creation
+Follow the tutorials [here](./scannet).
 
 
 ## Future Updates
