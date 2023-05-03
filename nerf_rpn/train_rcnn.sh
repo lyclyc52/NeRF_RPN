@@ -25,7 +25,7 @@ python3 -u run_rpn_detect.py \
 --n_classes 2 \
 --output_size 3 3 3 \
 --spatial_scale 4 8 16 32 \
---process_root front3d \
+--process_root hypersim \
 --process_name anchor_swin_ft \
 --is_add_layer \
 --is_flatten \
