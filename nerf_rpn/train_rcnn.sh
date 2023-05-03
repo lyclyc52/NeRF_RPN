@@ -18,6 +18,7 @@ python3 -u run_rpn_detect.py \
 --lr 1e-4 \
 --reg_loss_weight 5. \
 --weight_decay 1e-4 \
+--clip_grad_norm 1 \
 --log_interval 5 \
 --eval_interval 10 \
 --keep_checkpoints 5 \
