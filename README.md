@@ -1,5 +1,5 @@
 # NeRF-RPN
-[![arXiv](https://img.shields.io/badge/arXiv-2211.11646-f9f107.svg)](https://arxiv.org/abs/2211.11646) [![Youtube](https://badges.aleen42.com/src/youtube.svg)](https://youtu.be/M8_4Ih1CJjE) [<img src="https://img.shields.io/badge/OneDrive-Dataset-blue">](https://hkustconnect-my.sharepoint.com/:f:/g/personal/bhuai_connect_ust_hk/Ekjf3YC0W9BMsc-jHWXI4xEBy5s_OJBLEbebNVIprd4zMg?e=FgbN9S) [<img src="https://img.shields.io/badge/Cite-BibTex-orange">](#citation)
+[![arXiv](https://img.shields.io/badge/arXiv-2211.11646-f9f107.svg)](https://arxiv.org/abs/2211.11646) [![Youtube](https://badges.aleen42.com/src/youtube.svg)](https://youtu.be/M8_4Ih1CJjE) [<img src="https://img.shields.io/badge/Google_Drive-Dataset-blue?logo=googledrive">](https://drive.google.com/drive/folders/1q2wwLi6tSXu1hbEkMyfAKKdEEGQKT6pj?usp=sharing) [<img src="https://img.shields.io/badge/Cite-BibTex-orange">](#citation)
 
 NeRF-RPN: A general framework for object detection in NeRFs [NeRF-RPN, CVPR 2023].
 
@@ -43,7 +43,7 @@ Follow the [instructions](./data/README.md) to download and get more information
 
 
 ## Use Pretrained Model Weights
-We release pertrained model weights on Hypersim, 3D-FRONT, and ScanNet NeRF datasets, using VGG19, ResNet50, and Swin-S as backbones. The models can be downloaded [here](https://hkustconnect-my.sharepoint.com/:f:/g/personal/bhuai_connect_ust_hk/EpNYHQqMmMBLrpOeQy9J5ZEBHLi7FsKSGwS1GG82sZqo2w?e=eVo4rc).
+We release pertrained model weights on Hypersim, 3D-FRONT, and ScanNet NeRF datasets, using VGG19, ResNet50, and Swin-S as backbones. The models can be downloaded [here](https://drive.google.com/drive/folders/190UongpITiXvzvBAYMZRZIycwceboH-C?usp=sharing). We have temporarily migrated our dataset and models to Google Drive, and previous OneDrive links are expired.
 
 The model names are organized in the form of `{dataset name}_{method}_{backbone name}`, where "anchor" refers anchor-based head and "fcos" refers to anchor-free head. 
 

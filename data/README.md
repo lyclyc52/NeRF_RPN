@@ -8,7 +8,7 @@ The released datasets contain posed RGB images, NeRF models, radiance and densit
 
 
 ## Download
-[OneDrive link to the dataset.](https://hkustconnect-my.sharepoint.com/:f:/g/personal/bhuai_connect_ust_hk/Ekjf3YC0W9BMsc-jHWXI4xEBy5s_OJBLEbebNVIprd4zMg?e=FgbN9S)
+[Google Drive link to the dataset.](https://drive.google.com/drive/folders/1q2wwLi6tSXu1hbEkMyfAKKdEEGQKT6pj?usp=sharing) We have temporarily migrated our dataset and models to Google Drive, and previous OneDrive links are expired.
 
 The data is separated into NeRF data and NeRF-RPN training data. You only need the NeRF-RPN data (around 16GB), containing extracted NeRF RGB, density, and bounding box annotations, to reproduce or test our work.
 
