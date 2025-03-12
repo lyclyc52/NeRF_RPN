@@ -8,7 +8,7 @@ The released datasets contain posed RGB images, NeRF models, radiance and densit
 
 
 ## Download
-[Google Drive link to the dataset.](https://drive.google.com/drive/folders/1q2wwLi6tSXu1hbEkMyfAKKdEEGQKT6pj?usp=sharing) We have temporarily migrated our dataset and models to Google Drive, and previous OneDrive links are expired.
+[Google Drive link to the dataset.](https://drive.google.com/drive/folders/1q2wwLi6tSXu1hbEkMyfAKKdEEGQKT6pj?usp=sharing) We have temporarily migrated our dataset and models to Google Drive, and previous OneDrive links are expired. You can also download it from [this huggingface link.](https://huggingface.co/datasets/lyclyc52/NeRF_RPN/tree/main)
 
 The data is separated into NeRF data and NeRF-RPN training data. You only need the NeRF-RPN data (around 16GB), containing extracted NeRF RGB, density, and bounding box annotations, to reproduce or test our work.
 
